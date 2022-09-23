@@ -63,7 +63,7 @@ def upload_s3():
     filename = filename+'.'+fileformat
 
     # File Path 
-    spath = r'C:\Python Data\Tensight\tensight_files'
+    spath = 'file path'
     os.chdir(spath)
     source = os.path.join(spath,filename)
     destination = destination+'/'+filename
